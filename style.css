@@ -5,14 +5,9 @@ body {
     font-family: "Outfit";
 }
 
-main {
-
-
-}
 
 section {
-    border: 1px black;
-    border-radius: 5%;
+    border-radius: 20px;
     background-color: white;
     padding: 1rem;
     box-shadow: 4px 12px 20px rgba(0, 0, 0, 0.103);
@@ -23,23 +18,22 @@ section {
     flex-direction: column;
 }
 
-
-
 h3 {
     color: hsl(218, 44%, 22%);
     font-weight: 700;
     text-align: center;
-    font-size: 24px;
+    font-size: 23px;
     flex-basis: 1;
+    padding: 0 5px 0 5px;
     margin-bottom: 0;
 }
-
 
 p {
      color:hsl(216, 15%, 48%);
      font-size: 15px;
      font-weight: 400;
      flex-basis: 2;
+     padding: 0 0 5px 0;
 }
 
 .grid {
@@ -51,7 +45,7 @@ p {
 .qr-code {
 width: 288px;
 height: 288px;
-border-radius: 5%;
+border-radius: 3%;
 flex-basis: 3;
 align-self: center;
 }
